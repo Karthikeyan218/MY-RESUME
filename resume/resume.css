@@ -1,0 +1,358 @@
+*{
+    font-family: "Times New Roman";
+    box-sizing: border-box;
+    }
+  .head{
+    height:297mm;
+    width:210mm;
+    border:5px solid blue;
+    background-color: #2f3640;
+    }
+  #title{
+    border:2px solid blue;
+    border-radius:30px;
+    height:75px;
+    width:207mm;
+    background-color:lightgray;
+    }
+  #logo{
+    text-align:center;
+    align-content:center;
+    border:1px solid black;
+    border-radius:50px;
+    height:55px;
+    width:55px;
+    position:absolute;
+    top:20px;
+    left:50px;
+    background-color: #606c7a;
+   }
+  #MK{
+    text-align:center;
+    background-color: #606c7a;
+    position:absolute;
+    top:14px;
+    left:5.5px;
+    font-family: "Times New Roman";
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+    }
+  .name{
+    font-family: "Times New Roman";
+    font-size:35px;
+    font-weight:bold;
+    color: #2f3640;
+   position:absolute;
+    left:131px;
+    top:31px;
+    }
+  #developer{
+    font-family: "Times New Roman";
+    font-weight:bold;
+    font-size:15px;
+   position:absolute;
+    left:450px;
+    top:25px;
+    }
+  /***********education content  */
+  .edu{
+    height:320px;
+    width:500px;
+    border:3px solid black;
+    border-radius:30px;
+    background-color: white;
+    padding: 13px;
+    }
+  #eduname{ 
+    text-align: center;
+    height:23px;
+    border:2px solid black;
+    background-color:blue;
+    color:white;
+    width: 450px;
+    border-radius: 2px 45px 2px 45px;
+    position:absolute;
+    left:2.5%;
+    top:100px;
+      }
+     
+    /************************************* contact ***********************************************/
+  .contact{
+    padding:20px;
+    height:380px;
+    width:280px;
+    border:2px solid black;
+    border-radius: 2px 45px 2px 45px;
+    position:absolute;
+    background-color: lightgray;
+    top:87px;
+    left:515px;
+    text-align: center;
+    }
+    .contact_style{
+        padding:10px;
+
+    }
+    #email_name,#mob_name,#add_name{
+        text-align: center;
+        height:22px;
+        border:2px solid black;
+        background-color:blue;
+        color:white;
+        border-radius: 2px 45px 2px 45px;
+      }
+    /***********************************************career*********************************************/
+.career{
+    height:180px;
+    width:500px;
+    background-color: white;
+    border:3px solid black;
+    border-radius: 2px 45px 2px 45px;
+    position: absolute;
+    top: 409px;
+    left: 10px;   
+    text-align: justify;
+    padding: 15px;
+}
+#career_name{
+    text-align: center;
+    height:22px;
+    border:3px solid black;
+    background-color:blue;
+    color:white;
+    border-radius: 2px 45px 2px 45px;
+}
+.exdetails{
+    padding:20px;
+    height:440px;
+    width:280px;
+    border:2px solid black;
+    border-radius: 2px 45px 2px 45px;
+    background-color: lightgray;
+    position:absolute;
+    top:60px;
+    left:503px;
+    text-align: center;   
+     
+}
+#axper_name{
+  border-radius: 2px 45px 2px 45px;
+    text-align: center;
+    height:21px;
+    border:2px solid black;
+    background-color:blue;
+    color:white;
+    border-radius: 2px 45px 2px 45px;
+}
+
+#skill_name,#strength{
+    text-align: center;
+    height:21px;
+    border:2px solid black;
+    background-color:blue;
+    color:white;
+    border-radius: 2px 45px 2px 45px;
+
+}
+.skill ul{
+    list-style-type: none;
+    line-height: 25px;
+    margin-right: 40px;
+}
+.strengthclass>ul{
+    list-style-type: none;
+    line-height: 25px;
+    margin-right: 40px;
+}
+/*******************************************************project********************************/
+.project_details{
+  height:533px;
+    width:500px;
+    border:3px solid black;
+    background-color: white;
+    border-radius: 2px 45px 2px 45px;
+        padding: 10px;
+  position: absolute;
+  top: 593px;
+}
+#projectname,#project1,#git,#linkedinname,#projectname1,#project2,#projectname2,#project3,#projectname3,#project4{
+  text-align: center;
+  height:21px;
+  width: 250px;
+  border:1px solid black;
+  background-color:blue;
+  color:white;
+  border-radius:30px;
+  border-radius: 0px 45px 0px 45px;
+  
+}
+#projectname{
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  
+}
+
+#project1
+{
+  position: absolute;
+  top: 30px;
+  left: 245px;
+}
+#project1_detail{
+  text-indent: 50px;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  padding: 5px;
+}
+/*********************************************links*********************************/
+
+.links{
+  height:208px;
+    width:280px;
+  border:2px solid blue;
+  border-radius: 2px 45px 2px 45px;
+  background-color: lightgray;
+  padding: 13px;
+position: absolute;
+top: 918px;
+left:515px;
+text-align: center;
+}
+
+#gitlink a{
+  text-decoration: none;
+  color:GREEN;
+  
+}
+.linked a{
+  text-decoration: none;
+  color:GREEN;
+}
+
+#projectname1{
+  position: absolute;
+  top: 135px;
+  left: 2px;
+}
+#project2{
+  position: absolute;
+  top: 156px;
+  left: 245px;
+}
+#resume{
+  
+  text-indent: 50px;
+  position: absolute;
+  top: 187px;
+  left: 10px;
+}
+#projectname2{
+  position: absolute;
+  top: 255px;
+  left: 2px;
+}
+#project3{
+  position: absolute;
+  top: 276px;
+  left: 245px;
+}
+#resume a{
+  text-decoration: none;
+  color:GREEN;
+}
+#project3_content{
+  text-indent: 50px;
+  position: absolute;
+  top: 315px;
+  left: 2px;
+}
+#project3_content a{
+  text-decoration: none;
+  color:GREEN;
+}
+
+
+
+
+#projectname3{
+  position: absolute;
+  top: 364px;
+  left: 2px;
+}
+
+#project4{
+  text-indent: 50px;
+  position: absolute;
+  top: 385px;
+  left: 245px;
+}
+#project4_content{
+  text-indent: 50px;
+  position: absolute;
+  top: 415px;
+  left: 30px;
+}
+
+#project4_content a{
+  text-decoration: none;
+  color:GREEN; 
+}
+
+#icon{
+height: 100px;
+width: 100px;
+}
+/******************************************icon*/
+.fa-brands,.fa-solid,.fa-regular{
+  border: 2px solid black;
+  border-radius: 300px;
+  color:white;
+  font-size: 13px;
+  background-color:black;
+  height: 17px;
+  width: 17px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.fa-sharp,.fa-school{
+  border: 2px solid black;
+  border-radius: 300px;
+  color:white;
+  font-size: 13px;
+  background-color:black;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  top: 0px;
+  left: 90px;
+}
+.fa-dumbbell{
+  border: 2px solid black;
+  border-radius: 300px;
+  color:white;
+  font-size: 13px;
+  background-color:black;
+  height: 18px;
+  width: 20px;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  position: absolute;
+  top: 273px;
+  left: 75px;
+}
+
+
+
+
+
+
+
+
